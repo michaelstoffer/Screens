@@ -12,6 +12,7 @@
 		D6F4B9DA22812A6100B3F347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F4B9D922812A6100B3F347 /* Assets.xcassets */; };
 		D6F4B9DD22812A6100B3F347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F4B9DB22812A6100B3F347 /* LaunchScreen.storyboard */; };
 		D6F4B9E52281379800B3F347 /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F4B9E42281379800B3F347 /* NumberedViewController.swift */; };
+		D6F4B9E722813EE000B3F347 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F4B9E622813EE000B3F347 /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D6F4B9DC22812A6100B3F347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6F4B9DE22812A6100B3F347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6F4B9E42281379800B3F347 /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
+		D6F4B9E622813EE000B3F347 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D6F4B9D222812A5F00B3F347 /* AppDelegate.swift */,
 				D6F4B9E42281379800B3F347 /* NumberedViewController.swift */,
+				D6F4B9E622813EE000B3F347 /* RedViewController.swift */,
 				D6F4B9D622812A5F00B3F347 /* Main.storyboard */,
 				D6F4B9D922812A6100B3F347 /* Assets.xcassets */,
 				D6F4B9DB22812A6100B3F347 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6F4B9E52281379800B3F347 /* NumberedViewController.swift in Sources */,
+				D6F4B9E722813EE000B3F347 /* RedViewController.swift in Sources */,
 				D6F4B9D322812A5F00B3F347 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
