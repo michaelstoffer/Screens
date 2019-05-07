@@ -51,7 +51,7 @@
         <!--Red-->
         <scene sceneID="ftA-id-KvU">
             <objects>
-                <viewController id="vgI-rh-f6Q" sceneMemberID="viewController">
+                <viewController id="vgI-rh-f6Q" customClass="NumberedViewController" customModule="Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W6c-sT-xXA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,7 +73,7 @@
         <!--Purple-->
         <scene sceneID="9RH-3R-8OK">
             <objects>
-                <viewController id="MuO-JO-m3n" sceneMemberID="viewController">
+                <viewController id="MuO-JO-m3n" customClass="NumberedViewController" customModule="Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V4N-C8-wxv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,7 +95,7 @@
         <!--Orange-->
         <scene sceneID="RXs-hv-rNH">
             <objects>
-                <viewController id="QIU-OJ-Wjm" sceneMemberID="viewController">
+                <viewController id="QIU-OJ-Wjm" customClass="NumberedViewController" customModule="Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e5P-du-uNt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -111,7 +111,7 @@
         <!--Green-->
         <scene sceneID="f5Q-NL-qff">
             <objects>
-                <viewController id="7h9-NY-lNn" sceneMemberID="viewController">
+                <viewController id="7h9-NY-lNn" customClass="NumberedViewController" customModule="Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jlz-k0-2AJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
