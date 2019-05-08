@@ -9,10 +9,6 @@
 import UIKit
 
 class RedViewController: NumberedViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
     
     // Unwind segue
     @IBAction func unwindToRed(_ sender: UIStoryboardSegue) {

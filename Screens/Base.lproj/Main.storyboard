@@ -84,7 +84,7 @@
                         <rightBarButtonItems>
                             <barButtonItem title="Red" id="D7S-ge-yz7">
                                 <connections>
-                                    <segue destination="vgI-rh-f6Q" kind="show" id="Uey-hu-WD1"/>
+                                    <segue destination="vgI-rh-f6Q" kind="show" id="lyd-NM-hSP"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem title="Done" id="5Ti-Gs-xb1">
@@ -135,7 +135,7 @@
                     <navigationItem key="navigationItem" title="Orange" id="H7a-Hf-OwV">
                         <barButtonItem key="rightBarButtonItem" title="Done" id="dMb-Bv-qFQ">
                             <connections>
-                                <action selector="done:" destination="QIU-OJ-Wjm" id="sAC-df-eJy"/>
+                                <action selector="doneButtonTapped:" destination="QIU-OJ-Wjm" id="OGQ-v1-42D"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -213,14 +213,14 @@
             </objects>
             <point key="canvasLocation" x="-636" y="24"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Simple-->
         <scene sceneID="Xtr-uV-Ytj">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qdx-Tf-NVj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" badgeValue="4" systemItem="more" id="c7B-nk-5yz"/>
+                    <tabBarItem key="tabBarItem" title="Simple" id="c7B-nk-5yz"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KTX-Lc-NPU">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="KTX-Lc-NPU">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -253,6 +253,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Uey-hu-WD1"/>
+        <segue reference="lyd-NM-hSP"/>
     </inferredMetricsTieBreakers>
 </document>

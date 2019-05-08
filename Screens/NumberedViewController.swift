@@ -9,34 +9,29 @@
 import UIKit
 
 class NumberedViewController: UIViewController {
+
+    let label = UILabel(frame: CGRect(x: 0, y: 0, width: 160, height: 80))
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // 1. Customize the label
+        self.view.addSubview(self.label)
+
         label.textColor = .white
         label.textAlignment = .center
         label.font = UIFont.boldSystemFont(ofSize: 64)
-        label.text = "1"
-        label.sizeToFit()
-        label.center = view.center // Reposition after a new size
-
-        view.addSubview(label)
+        label.center = self.view.center
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        // 2. Figure out how to display navigation stack count
-        if let number = navigationController?.viewControllers.count {
+        if let number = self.navigationController?.viewControllers.count {
             label.text = String(number)
-            label.sizeToFit()
-            label.center = view.center
         }
     }
     
-    @IBAction func done(_ sender: Any) {
-        navigationController?.popToRootViewController(animated: true)
+    @IBAction func doneButtonTapped(_ sender: UIBarButtonItem) {
+        self.navigationController?.popToRootViewController(animated: true)
     }
-    
-    let label = UILabel() // Zero-size label
 }
